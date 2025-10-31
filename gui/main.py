@@ -49,7 +49,7 @@ def main(page: ft.Page):
     page.window_width = 850
     page.window_height = 300
     page.theme_mode = ft.ThemeMode.LIGHT
-    page.window_center()
+    page.window.center()
 
 
     volume_level_label = ft.Text('+40%')
