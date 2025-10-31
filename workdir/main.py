@@ -43,7 +43,6 @@ def listen_audio():
     player.play()
 
     # asyncio.run(play_audio())
-# def
 
 def main(page: ft.Page):
     page.window_width = 850
@@ -53,7 +52,7 @@ def main(page: ft.Page):
 
 
     volume_level_label = ft.Text('+40%')
-    rate_speed_level_label = ft.Text('+20%')
+    rate_speed_level_label = ft.Text('+38%')
 
     def update_volume_label(text: str):
         volume_level_label.value = text

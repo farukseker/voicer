@@ -1,0 +1,9 @@
+services:
+  tts:
+    build: .
+    image: edge-tts-studio:latest
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/root/Documents/pars
+    restart: unless-stopped

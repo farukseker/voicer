@@ -6,6 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "edge-tts>=7.2.3",
-    "flet[all]>=0.28.3",
-    "python-vlc>=3.0.21203",
+    "streamlit>=1.51.0",
 ]
